@@ -10,8 +10,8 @@ class Scene2 extends Phaser.Scene{
 
    // this.load.bitmapFont("desyrel", "assets/font/font.png", "assets/font/font.xml" )
         this.load.image("Fuel", "assets/images/Fuel.png");
-        this.load.image("Leftlane", "assets/images/Left_Lane.png");
-        this.load.image("Rightlane", "assets/images/Right_Lane.png");
+        this.load.image("Leftlane", "assets/images/Platform.png");
+        this.load.image("Rightlane", "assets/images/Platform.png");
         this.load.image("Roadblock", "assets/images/RoadBlock.png");
         this.load.image("Roadlines", "assets/images/Roadlines.png");
         this.load.image("Platform", "assets/images/Platform.png");
