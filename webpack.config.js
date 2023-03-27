@@ -44,10 +44,6 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: "Biker Vroom",
-      template: "src/index.html",
-    }),
     new CopyFilesWebpackPlugin({
       patterns: [
         { from: "src/assets", to: "assets" },
